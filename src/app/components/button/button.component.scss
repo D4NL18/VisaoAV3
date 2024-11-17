@@ -1,5 +1,5 @@
 button {
-    padding: 1.5rem 2rem;
+    padding: 1.25rem 2rem;
     border-radius: 1rem;
     border: solid 1px black;
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
@@ -8,6 +8,10 @@ button {
     cursor: pointer;
 
     p {
-        font-size: 2rem;
+        font-size: 1.75rem;
+        margin: 0;
+    }
+    &:hover {
+        transform: scale(1.01);
     }
 }

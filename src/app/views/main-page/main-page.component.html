@@ -1,3 +1,16 @@
-<app-button [onClick]="handleClick">Realizar Detecção</app-button>
-<app-input-file></app-input-file>
-<app-image-container></app-image-container>
+<div class="main-container">
+    <div class="title-container">
+        <h1>Detecção de Objetos Submersos</h1>
+        <span>Clique no Botão abaixo para fazer upload de uma imagem. Em seguida, aperte no Botão "Realizar Detecção"</span>
+    </div>
+    <app-input-file></app-input-file>
+    <div class="image-container">
+        <app-image-container></app-image-container>
+        <app-image-container></app-image-container>
+    </div>
+    <app-button [onClick]="handleClick">Realizar Detecção</app-button>
+</div>
+
+
+
+
