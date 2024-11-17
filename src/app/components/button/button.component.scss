@@ -1,0 +1,13 @@
+button {
+    padding: 1.5rem 2rem;
+    border-radius: 1rem;
+    border: solid 1px black;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+    background-color: black;
+    color: white;
+    cursor: pointer;
+
+    p {
+        font-size: 2rem;
+    }
+}
