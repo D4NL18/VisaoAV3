@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Output } from '@angular/core';
 import {MatIconModule} from '@angular/material/icon';
 
 @Component({
@@ -9,5 +9,12 @@ import {MatIconModule} from '@angular/material/icon';
   styleUrl: './input-file.component.scss'
 })
 export class InputFileComponent {
+  selectedFile: File | null = null;
 
+  @Output() fileSelected = new EventEmitter<File | null>();
+
+  onFileSelected(event: any) {
+    this.selectedFile = event.target.files[0]
+    this.fileSelected.emit(this.selectedFile)
+  }
 }

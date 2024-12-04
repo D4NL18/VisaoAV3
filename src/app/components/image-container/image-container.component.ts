@@ -9,6 +9,7 @@ import { Component, Input } from '@angular/core';
   styleUrl: './image-container.component.scss'
 })
 export class ImageContainerComponent {
-  @Input() src: string | null = null
-  @Input() alt: string = ""
+  @Input() source: string | null = null;
+
 }
+
