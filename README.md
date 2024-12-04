@@ -1,27 +1,35 @@
-# VisaoAV3
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.7.
+# Detecção de Peixes
 
-## Development server
+Este repositório contém o **front-end** de um projeto desenvolvido para realizar a detecção de peixes submersos, utilizando a tecnologia **AngularJS**.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Como Utilizar
 
-## Code scaffolding
+Para rodar o repositório localmente, siga os seguintes passos:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. **Instalar as dependências**:
+   Execute o comando abaixo para instalar as dependências do projeto:
+   ```bash
+   npm i
+   ```
 
-## Build
+2. **Iniciar o servidor local**:
+   Após a instalação, execute o comando para rodar o código localmente:
+   ```bash
+   npm start
+   ```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+3. **Acessar o Frontend Online**:
+   Você também pode acessar o frontend hospedado no seguinte link:
+   [Frontend no Vercel](https://visao-av3.vercel.app/)
 
-## Running unit tests
+   > **Nota**: A versão hospedada no Vercel **não possui backend**. Este deve ser executado localmente.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Backend
 
-## Running end-to-end tests
+O backend pode ser acessado no repositório do GitHub:
+[Repositório do Backend](https://github.com/Xmagnop/UR-Back)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Visualização
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+![Demo](https://github.com/D4NL18/VisaoAV3/blob/main/src/app/assets/frontend.gif)
