@@ -13,10 +13,8 @@ export class DetectionService {
 
     // Post
     uploadImage(file: File): Observable<any> {
-      console.log(file)
       const formData = new FormData()
       formData.append('image', file)
-      console.log("post")
       return this.http.post(`${this.apiUrl}/predict`, formData)
     }
   
